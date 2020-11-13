@@ -16,9 +16,11 @@
         include 'elements/menu.php';
     ?>
     <div class="home">
+        <a name="home"></a>
 
     </div>
     <div class="oferta">
+        <a name="oferta"></a>
 <?php
     $title = 0;
     $idds = 0;
@@ -227,6 +229,7 @@
             </div>
         </div>
         <div class="onas">
+            <a name="onas"></a>
 <?php
     $title = 1;
     $idds = 1;
@@ -327,6 +330,7 @@
             </div>
         </div>
         <div class="realizacje">
+            <a name="realizacje"></a>
 <?php
     $title = 3;
     $idds = 3;
@@ -364,40 +368,49 @@
     include 'elements/header.php';
 ?>
             <div class="logos">
-                <div class="logos_company">
-                    <img src="img/logos/holiday.png" alt="Holiday Park & Resort">
+                <div class="row_logos row_1">
+                    <div class="logos_company square">
+                        <img src="img/logos/holiday.png" alt="Holiday Park & Resort">
+                    </div>
+                    <div class="logos_company square">
+                        <img src="img/logos/mcn.jpg" alt="Morskie Centrum Nauki">
+                    </div>
+                    <div class="logos_company square">
+                        <img src="img/logos/fundusz.jpg" alt="Fundusz Pomerania">
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="logos_company">
-                    <img src="img/logos/mcn.jpg" alt="Morskie Centrum Nauki">
+                <div class="row_logos row_2">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/seacon.png" alt="GS Seacon">
+                    </div>
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/pigment-logo.png" alt="Farby Pigment">
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="logos_company">
-                    <img src="img/logos/fundusz.jpg" alt="Fundusz Pomerania">
+                <div class="row_logos row_3">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/kowo.png" alt="Kowo Udvikling">
+                    </div>
+                    <div class="logos_company square">
+                        <img src="img/logos/sep.jpg" alt="Stowarzyszenie Elektryków Polskich">
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="clear"></div>
-                <div class="logos_company">
-                    <img src="img/logos/seacon.png" alt="GS Seacon">
+                <div class="row_logos row_4">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/oknoserwis.png" alt="Okno Serwis">
+                    </div>
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/multi.png" alt="Multi Nieruchomości">
+                    </div>
+                    <div class="clear"></div>
                 </div>
-                <div class="logos_company">
-                    <img src="img/logos/pigment-logo.png" alt="Farby Pigment">
-                </div>
-                <div class="clear"></div>
-                <div class="logos_company">
-                    <img src="img/logos/kowo.png" alt="Kowo Udvikling">
-                </div>
-                <div class="logos_company">
-                    <img src="img/logos/sep.jpg" alt="Stowarzyszenie Elektryków Polskich">
-                </div>
-                <div class="clear"></div>
-                <div class="logos_company">
-                    <img src="img/logos/oknoserwis.png" alt="Okno Serwis">
-                </div>
-                <div class="logos_company">
-                    <img src="img/logos/multi.png" alt="Multi Nieruchomości">
-                </div>
-                <div class="clear"></div>
             </div>
         </div>
         <div class="kontakt">
+            <a name="kontakt"></a>
             <div class="contact_logo">
 
             </div>

@@ -316,7 +316,41 @@ img{
 
 /* ======================== ZAUFALI NAM =======================*/
 .zaufali{
-    width: 1000px;
-    height: 1000px;
-    background-color: red;
+    width: 100%;
+    height: 1700px;
+}
+.logos{
+    width: 70%;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.row_logos, .row_1, .row_2, .row_3, .row_4{
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.row_logos{
+    margin-bottom: 100px;
+}
+.row_1 .logos_company{
+    width: calc(100% / 3);
+    float: left;
+}
+.row_2 .logos_company, .row_3 .logos_company, .row_4 .logos_company{
+    width: calc(100% / 2);
+    float: left;
+}
+.logos_company img{
+    height: 200px;
+    width: auto;
+}
+
+/* ======================== KONTAKT =======================*/
+.kontakt{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
 }
