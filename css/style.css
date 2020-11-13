@@ -314,7 +314,9 @@ img{
     text-align: center;
 }
 
-/* jakie tam komentarz */
-
-/* nastepny kom */
-/* i jeszcze jeden */
+/* ======================== ZAUFALI NAM =======================*/
+.zaufali{
+    width: 1000px;
+    height: 1000px;
+    background-color: red;
+}
