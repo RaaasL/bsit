@@ -411,11 +411,14 @@
         </div>
         <div class="kontakt">
             <a name="kontakt"></a>
-            <div class="contact_logo">
-
+            <div class="contact_logo_container">
+                <div class="contact_logo">
+                    <img src="img/logo_bsit_white.png" alt="BS IT">
+                </div>
             </div>
             <div class="contact_form">
                 <div class="form">
+<!--
                     <form class="contact_form_form" action="index.php" method="post">
                         <input type="text" name="imie" placeholder="*Imię i nazwisko"><br>
                         <input type="text" name="firma" placeholder="Firma"><br>
@@ -423,6 +426,21 @@
                         <textarea name="wiadomosc" rows="8" cols="80" placeholder="*Wiadomość"></textarea><br>
                         <input type="submit" name="send" value="Wyślij">
                     </form>
+!-->
+                    <div class="contact_title">
+                        <h1>BS IT</h1>
+                    </div>
+                    <div class="contact_details">
+                        <ul>
+                            <li><span>BS IT</span></li>
+                            <li><span>Bartosz Słupny</span></li>
+                            <li><a href="https://goo.gl/maps/YAKvT8gLYvWQewLg7" target="_blank"><span>ul. Ku Słońcu 32</span></a></li>
+                            <li><span>71-080 Szczecin</span></li>
+                            <li><span>NIP: 852-25-17-717</span></li>
+                            <li><a href="tel:+48503468650"><span>503-468-650</span></a></li>
+                            <li><a href="mailto:bartosz.slupny@bsit.pl"><span>bartosz.slupny@bsit.pl</span></a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
             <div class="clear"></div>
