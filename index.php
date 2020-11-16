@@ -428,11 +428,11 @@
                     </form>
 !-->
                     <div class="contact_title">
-                        <h1>BS IT</h1>
+
                     </div>
                     <div class="contact_details">
                         <ul>
-                            <li><span>BS IT</span></li>
+                            <li><span class="contact_details_title">BS IT</span></li>
                             <li><span>Bartosz Słupny</span></li>
                             <li><a href="https://goo.gl/maps/YAKvT8gLYvWQewLg7" target="_blank"><span>ul. Ku Słońcu 32</span></a></li>
                             <li><span>71-080 Szczecin</span></li>

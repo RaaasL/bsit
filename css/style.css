@@ -3,7 +3,7 @@ html, body, .main{
     padding: 0;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #000;
     font-family: 'Roboto', sans-serif;
     color: black;
     font-size: 14px;
@@ -214,6 +214,11 @@ img{
 }
 
 /* ======================== FAKTY =======================*/
+.fakty{
+    width: 100%;
+    height: 1400px;
+    background-color: #fff;
+}
 .row_facts{
     width: 1350px;
     height: 1000px;
@@ -318,6 +323,7 @@ img{
 .zaufali{
     width: 100%;
     height: 1700px;
+    background-color: #fff;
 }
 .logos{
     width: 70%;
@@ -356,15 +362,23 @@ img{
 }
 .contact_logo_container, .contact_form{
     width: 50%;
-    height: 100%;
+    height: 75%;
     float: left;
     padding-top: 15%;
+}
+.contact_form{
+    height: 75% !important;
 }
 .contact_logo, .form{
     width: 100%;;
     height: 50%;
-    border-right: 1px solid white;
     text-align: center;
+}
+.form{
+    height: 100px;
+}
+.contact_logo{
+    border-right: 1px solid white;
 }
 .contact_logo img{
     width: 400px;;
@@ -374,5 +388,54 @@ img{
 .contact_form{
     width: 50%;
     height: 100%;
+    text-align: center;
+}
+.contact_details{
+    height: 20%;
+    padding-top: 15%;
+}
+.contact_details ul li{
+    list-style-type: none;
+    line-height: 30px;
+}
+.contact_details ul li span{
+    font-size: 24px;
+    color: white;
+}
+.contact_details_title{
+    font-size: 48px !important;
+}
+
+/* ======================== FOOTER =======================*/
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    color: white !important;
+}
+.footer a{
+    color: white !important;
+}
+.footer_inside{
+    width: calc(70% - 5%);
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    padding-left: 5%;
+}
+.footer_menu{
+    padding: 30px;
+}
+.footer_menu_item{
     float: left;
+    width: 25%;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.copyright a{
+    color: white;
 }

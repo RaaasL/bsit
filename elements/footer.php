@@ -24,6 +24,7 @@ include 'footer_menu_kontakt.php';
             <div class="clear"></div>
         </div>
     </div>
+    <div class="clear"></div>
     <div class="copyright">
 <?php
 include 'copyright.php';
