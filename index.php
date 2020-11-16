@@ -8,7 +8,10 @@
     <title>BS IT - Jakość gwarantowana doświadczeniem</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (min-width: 1367px)" href="css/style_1367px.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1366px)" href="css/style_768-1366px.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> !-->
+    <script src="js/apk.js"></script>
 </head>
 <body>
     <div class="main">
@@ -303,8 +306,8 @@
                 </div>
                 <div class="clear"></div>
                 <div class="circle">
-                    <div class="number">
-                        <span>232</span>
+                    <div class="number" id="klienci">
+                        <span><script>klienci()</script></span>
                     </div>
                     <div class="title_facts">
                         <span>Zadowolonych klientów</span>
