@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" media="screen and (min-width: 1367px)" href="css/style_1367px.css">
-    <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 1366px)" href="css/style_768-1366px.css">
+    <link rel="stylesheet" media="screen and (min-width: 1280px) and (max-width: 1366px)" href="css/style_768-1366px.css">
+    <link rel="stylesheet" media="screen and (max-width: 1279px)" href="css/style_1279px.css">
     <!-- <link rel="stylesheet" href="css/style.css"> !-->
     <script src="js/apk.js"></script>
 </head>

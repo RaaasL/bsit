@@ -1,0 +1,468 @@
+html, body, .main{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 14px;
+}
+.clear{
+    clear: both;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    fill: black !important;
+}
+.mobile_menu svg{
+    width: 160px !important;
+    height: 160px !important;
+    fill: white !important;
+}
+.header{
+    height: auto;
+    text-align: center;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.ofe{
+    width: 1150px;
+}
+.ona{
+    width: 903px;
+}
+.fak{
+    width: 800px;
+}
+.rea{
+    width: 965px;
+}
+.zau{
+    width: 883px;
+}
+.line{
+    width: 300px;
+    height: 1px;
+    padding-top: 24px;
+    float: left;
+}
+.line hr{
+    width: calc(100% - 2px);
+    border: 1px solid black;
+}
+.title{
+    min-width: 100px;
+    max-width: 500px;
+    height: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu{
+    display: none !important;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+img{
+    width: 100px;
+    height: 100px;
+}
+
+/* ======================== MENU =======================*/
+.main_menu{
+    width: 100%;
+    height: 170px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 1px solid white;
+    position: fixed;
+    display: block;
+}
+.logo{
+    width: 160px;;
+    height: 160px;
+    margin-left: 150px;
+    padding-top: 5px;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+.mobile_menu{
+    width: auto;
+    height: 100%;
+    float: right;
+    padding-right: 150px;
+}
+/*
+.menu, .mobile_menu{
+    width: auto;
+    height: 100%;
+    float: right;
+}
+.mobile_menu{
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.menu, .menu ul, .menu ul li, menu ul li a{
+    display: none !important;
+}
+.menu ul{
+    float: left;
+    list-style-type: none;
+}
+.menu li{
+    display: inline;
+}
+.menu li a{
+    display: block;
+    float: left;
+    margin-right: 50px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+    transition-duration: 0.3s;
+}
+.menu li:last-child{
+    margin-right: 100px;
+}
+.menu ul li a:hover{
+    color: #c7c7c7;
+    transition-duration: 0.3s;
+}
+*/
+
+/* ======================== HOME =======================*/
+.home{
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/hero.jpg');
+    background-size: 100% auto;
+    background-position: bottom;
+}
+
+/* ======================== OFERTA =======================*/
+.oferta{
+    width: 100%;
+    height: 1100px;
+    background-color: #fff;
+}
+.szachownica{
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.blue{
+    background-color: #03B8ED;
+}
+.gray{
+    background-color: #F9F9F9;
+}
+.offer{
+    width: calc(330px - 60px);
+    height: calc(330px - 60px);
+    padding: 30px;
+    float: left;
+}
+.ico{
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+.offer_title{
+    width: 100%;
+    text-align: center;
+}
+.offer_desc{
+    text-align: justify;
+}
+
+/* ======================== O NAS =======================*/
+.onas{
+    width: 100%;
+    height: 1700px;
+    background-color: #fafafa;
+}
+.row_about{
+    width: 75%;
+    height: 350px;
+    margin: 0 auto;
+    margin-bottom: 80px !important;
+}
+.image, .image2{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background-color: orange;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #7d7d7d;
+}
+.image{
+    margin-right: 120px;
+}
+.image2{
+    margin-left: 120px;
+}
+.row_about img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.about_desc{
+    width: calc(80% - 120px - 60px - 5%);
+    height: calc(100% - 60px);
+    padding: 30px;
+    float: left;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #7d7d7d;
+}
+.about_desc h2{
+    text-align: center;
+}
+.about_desc p{
+    text-align: justify;
+}
+
+/* ======================== FAKTY =======================*/
+.fakty{
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+.row_facts{
+    width: 800px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.circle{
+    width: 220px;
+    height: calc(220px - 60px);
+    border: 1px solid #03B8ED;
+    float: left;
+    margin-bottom: 100px;
+    border-radius: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+.circle_middle{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.circle span{
+    font-size: 36px;
+}
+.title_facts span{
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* ======================== NASZE REALIZACJE =======================*/
+.realizacje{
+    width: 100%;
+    height: 1550px;
+    background-color: #fafafa;
+}
+.real_text{
+    width: 40%;
+    height: 150px;
+    background-color: white;
+    padding: 30px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 30px #7d7d7d;
+    border-radius: 10px;
+    text-align: justify;
+}
+.real_content{
+    width: 75%;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.arrow{
+    width: 100px;
+    height: calc(730px - 350px);
+    float: left;
+    font-size: 72px;
+    padding-top: 350px;
+}
+.arrow_right{
+    text-align: right;
+}
+.projects{
+    width: calc(100% - 200px - 30px - 50px);
+    height: 700px;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #7d7d7d;
+    border-radius: 10px;
+    text-align: justify;
+    float: left;
+    background-color: white;
+}
+.real_image{
+    width: 65%;
+    min-height: 100px;
+    max-height: 550px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.real_image img{
+    width: 100%;
+    height: auto;
+    box-shadow: 5px 5px 30px #7d7d7d;
+    border-radius: 10px;
+}
+.real_line hr{
+    width: 55%;
+    border: 1px solid black;
+    margin-bottom: 50px;
+}
+.real_desc{
+    width: 45%;
+    height: auto;
+    text-align: justify;
+    margin: 0 auto;
+}
+.real_desc h2{
+    text-align: center;
+}
+
+/* ======================== ZAUFALI NAM =======================*/
+.zaufali{
+    width: 100%;
+    height: 1000px;
+    background-color: #fff;
+}
+.logos{
+    width: 60%;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.row_logos, .row_1, .row_2, .row_3, .row_4{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.row_logos{
+    margin-bottom: 50px;
+}
+.row_1 .logos_company{
+    width: calc(100% / 3);
+    float: left;
+}
+.row_2 .logos_company, .row_3 .logos_company, .row_4 .logos_company{
+    width: calc(100% / 2);
+    float: left;
+}
+.logos_company img{
+    height: 100px;
+    width: auto;
+}
+
+/* ======================== KONTAKT =======================*/
+.kontakt{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.contact_logo_container, .contact_form{
+    width: 50%;
+    height: 80%;
+    float: left;
+    padding-top: 15%;
+}
+.contact_form{
+    height: 60% !important;
+}
+.contact_logo, .form{
+    width: 100%;;
+    height: 60%;
+    text-align: center;
+}
+.form{
+    height: 100px;
+}
+.contact_logo{
+    border-right: 1px solid white;
+}
+.contact_logo img{
+    width: 250px;;
+    height: auto;
+    padding-top: 40px;
+}
+.contact_form{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.contact_details{
+    height: 20%;
+    padding-top: 70px;;
+}
+.contact_details ul li{
+    list-style-type: none;
+    line-height: 20px;
+}
+.contact_details ul li span{
+    font-size: 14px;
+    color: white;
+}
+.contact_details_title{
+    font-size: 24px !important;
+}
+
+/* ======================== FOOTER =======================*/
+
+.footer{
+    width: 100%;
+    height: 250px;
+    color: white !important;
+}
+.footer a{
+    color: white !important;
+}
+.footer_inside{
+    width: calc(70% - 5%);
+    height: 100%;
+    margin: 0 auto;
+    border-top: 1px solid white;
+    padding-left: 5%;
+}
+.footer_menu{
+    padding: 30px;
+}
+.footer_menu_item{
+    float: left;
+    width: 25%;
+}
+.footer_menu ul li{
+    list-style-type: none;
+}
+.copyright{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.copyright a{
+    color: white;
+}

@@ -64,6 +64,9 @@ svg{
     margin-left: auto;
     margin-right: auto;
 }
+.mobile_menu{
+    display: none !important;
+}
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 img{
     width: 100px;

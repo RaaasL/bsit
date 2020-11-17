@@ -27,3 +27,8 @@ function klienci()
         document.getElementById('klienci').innerHTML = '<span>999+</span>'
     }
 }
+
+function showMenu()
+{
+    alert('show')
+}
