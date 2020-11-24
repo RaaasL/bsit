@@ -4,9 +4,12 @@ html, body, .main{
     width: 100%;
     height: 100%;
     background-color: #000;
+/*
     font-family: 'Roboto', sans-serif;
+*/
+    font-family: 'Tahoma', sans-serif;
     color: black;
-    font-size: 14px;
+    font-size: 24px;
 }
 .clear{
     clear: both;
@@ -16,8 +19,8 @@ a{
     text-decoration: none;
 }
 svg{
-    width: 40px;
-    height: 40px;
+    width: 140px;
+    height: 140px;
     fill: black !important;
 }
 .mobile_menu svg{
@@ -34,6 +37,7 @@ svg{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+/*
 .ofe{
     width: 1150px;
 }
@@ -49,17 +53,25 @@ svg{
 .zau{
     width: 883px;
 }
+*/
 .line{
+/*
     width: 300px;
     height: 1px;
     padding-top: 24px;
     float: left;
+*/
+    display: none;
 }
 .line hr{
     width: calc(100% - 2px);
     border: 1px solid black;
 }
 .title{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+/*
     min-width: 100px;
     max-width: 500px;
     height: auto;
@@ -68,6 +80,7 @@ svg{
     float: left;
     margin-left: auto;
     margin-right: auto;
+*/
 }
 .menu{
     display: none !important;
@@ -103,6 +116,9 @@ img{
     height: 100%;
     float: right;
     padding-right: 150px;
+}
+.mobile_menu_inside{
+    display: none;
 }
 /*
 .menu, .mobile_menu{
@@ -149,11 +165,45 @@ img{
     width: 100%;
     height: 100%;
     background-image: url('../img/hero.jpg');
-    background-size: 100% auto;
+    background-size: auto 100%;
     background-position: bottom;
 }
 
 /* ======================== OFERTA =======================*/
+.oferta{
+    width: 100%;
+    min-height: 3200px;
+    height: auto;
+    background-color: #fff;
+}
+.blue{
+    background-color: #03B8ED;
+}
+.gray{
+    background-color: #F9F9F9;
+}
+.offer{
+    width: 100%;
+    min-height: 500px;
+    height: auto;
+}
+.ico{
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px 30px 0px;
+}
+.offer_title{
+    width: 100%;
+    text-align: center;
+}
+.offer_desc{
+    width: 95%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    font-size: 24px !important;
+    text-align: justify;
+}
+/*
 .oferta{
     width: 100%;
     height: 1100px;
@@ -188,8 +238,40 @@ img{
 .offer_desc{
     text-align: justify;
 }
+*/
 
 /* ======================== O NAS =======================*/
+.onas{
+    width: 100%;
+    min-height: 1800px;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: #fafafa;
+}
+.row_about .image, .image2{
+    display: none;
+}
+.about_desc{
+    /*
+    width: calc(85% - 120px;);
+    height: calc(85% - 120px);
+    */
+    width: calc(95% - 60px);
+    height: calc(95% - 60px);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 5px 5px 30px #7d7d7d;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.about_desc h2{
+    text-align: center;
+}
+.about_desc p{
+    text-align: justify;
+}
+/*
 .onas{
     width: 100%;
     height: 1700px;
@@ -236,6 +318,7 @@ img{
 .about_desc p{
     text-align: justify;
 }
+*/
 
 /* ======================== FAKTY =======================*/
 .fakty{
