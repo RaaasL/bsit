@@ -28,7 +28,39 @@ function klienci()
     }
 }
 
+
+var show = 0
 function showMenu()
 {
-    alert('show')
+    if(show == 0)
+    {
+        document.getElementById('mobile_menu_inside_items').style.visibility='visible'
+        document.getElementById('mobile_menu_inside_items').style.opacity='1'
+        document.getElementById('mobile_menu_inside_items').style.transitionDuration='0.3s'
+        show = 1
+    }
+    else
+    {
+        //document.getElementById('mobile_menu_inside_items').style.visibility='hidden'
+        document.getElementById('mobile_menu_inside_items').style.visibility='hidden'
+        document.getElementById('mobile_menu_inside_items').style.opacity='0'
+        document.getElementById('mobile_menu_inside_items').style.transitionDuration='0.3s'
+        show = 0
+    }
+
 }
+
+
+function hideMenu()
+{
+    var show = 0
+    document.getElementById('mobile_menu_inside_items').style.visibility='hidden'
+    document.getElementById('mobile_menu_inside_items').style.opacity='0'
+    document.getElementById('mobile_menu_inside_items').style.transitionDuration='0.3s'
+}
+
+/*
+
+document.getElementById('mobile_menu_inside_items').style.display='block'
+
+*/

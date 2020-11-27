@@ -67,7 +67,7 @@ svg{
     margin-left: auto;
     margin-right: auto;
 }
-.mobile_menu{
+.mobile_menu, .mobile_menu_inside{
     display: none !important;
 }
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/

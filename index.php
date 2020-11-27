@@ -24,7 +24,7 @@
 
     </div>
     <div class="oferta">
-        <a name="oferta"></a>
+        <a name="oferta" class="name_section"></a>
 <?php
     $title = 0;
     $idds = 0;
