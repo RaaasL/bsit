@@ -20,6 +20,9 @@ svg{
     height: 40px;
     fill: black !important;
 }
+.contact_details_mobile{
+    display: none;
+}
 .header{
     height: auto;
     text-align: center;
