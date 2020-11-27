@@ -53,10 +53,10 @@ function showMenu()
 
 function hideMenu()
 {
-    var show = 0
     document.getElementById('mobile_menu_inside_items').style.visibility='hidden'
     document.getElementById('mobile_menu_inside_items').style.opacity='0'
     document.getElementById('mobile_menu_inside_items').style.transitionDuration='0.3s'
+    var show = 0
 }
 
 /*
