@@ -59,6 +59,7 @@ function hideMenu()
     var show = 0
 }
 
+
 /*
 
 document.getElementById('mobile_menu_inside_items').style.display='block'

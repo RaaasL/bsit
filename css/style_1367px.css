@@ -281,10 +281,20 @@ img{
     float: left;
     font-size: 72px;
     padding-top: 350px;
+    cursor: pointer;
 }
 .arrow_right{
     text-align: right;
 }
+/*
+input[type="submit"], input[type="button"] {
+  border: none;
+  background-color: #fafafa;
+  font-size: 72px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif !important;
+}
+*/
 .projects{
     width: calc(100% - 200px - 30px - 50px);
     height: 700px;
@@ -328,7 +338,8 @@ img{
 /* ======================== ZAUFALI NAM =======================*/
 .zaufali{
     width: 100%;
-    height: 1700px;
+    //height: 3000px;
+    height: 2000px;
     background-color: #fff;
 }
 .logos{

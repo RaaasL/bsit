@@ -13,6 +13,7 @@
     <link rel="stylesheet" media="screen and (max-width: 1279px)" href="css/style_1279px.css">
     <!-- <link rel="stylesheet" href="css/style.css"> !-->
     <script src="js/apk.js"></script>
+    <script src="js/gallery.js"></script>
 </head>
 <body>
     <div class="main">
@@ -245,8 +246,7 @@
             </div>
             <div class="about_desc">
                 <h2>Kim jesteśmy?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. In culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Excepteur sint occaecat cupidatat, dolore eu fugiat nulla pariatur non proident. Dolorem sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et fugiat nulla pariatur dolore magna aliqua. Irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>BS IT to zespół profesjonalistów który każde zlecenie realizuje z pasją z zachowaniem najwyższej staranności. Dzięki wieloletniemu doświadczeniu oraz tysiącach pomyślnie zrealizowanych zleceń, podejmujemy się zadań przez innych uznawanych za niemożliwe do zrealizowania. Cechuje nas nieszablonowe oraz indywidualne podejście do każdego zlecenia. Zajmujemy się kompleksową obsługą informatyczną zarówno małych, średnich jak i dużych firm, a także wspieramy działy IT, w zakresie opieki nad komputerami, laptopami, serwerami, urządzeniami sieciowymi i drukującymi Zakres naszych usług obejmuje również systemy CCTV, KD, RCP, Instalacje teletechniczne, tworzenie stron www oraz sklepów internetowych. BS IT to jakość gwarantowana doświadczeniem...</p>
             </div>
             <div class="clear"></div>
         </div>
@@ -345,22 +345,24 @@
             </div>
             <div class="real_content">
                 <div class="arrow">
-                    <span> < </span>
+                    <span onclick="changeImage('previous')"> < </span>
+                    <!--<input type="button" value="<" onclick="changeImage('previous')">!-->
                 </div>
                 <div class="projects">
-                    <div class="real_image">
-                        <img src="img/domydobra.png" alt="www.domydobra.pl/">
+                    <div class="real_image" id="gallery">
+                        <img src="img/www/1.png" alt="www.domydobra.pl/">
                     </div>
                     <div class="real_line">
                         <hr>
                     </div>
-                    <div class="real_desc">
+                    <div class="real_desc" id="real_desc">
                         <a href="http://domydobra.pl/" target="_blank"><h2>www.domydobra.pl</h2></a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
                     </div>
                 </div>
                 <div class="arrow arrow_right">
-                    <span> > </span>
+                    <!--<input type="button" value=">" onclick="changeImage('next')">!-->
+                    <span onclick="changeImage('next')"> > </span>
                 </div>
                 <div class="clear"></div>
             </div>
@@ -370,6 +372,7 @@
     $title = 4;
     $idds = 4;
     include 'elements/header.php';
+    /* ============================= ############## DODAĆ NAVITECH ################# ============================== */
 ?>
             <div class="logos">
                 <div class="row_logos row_1">
@@ -412,6 +415,58 @@
                     <div class="clear"></div>
                 </div>
             </div>
+<!-- ======================= PARTNERZY =============================== !-->
+<?php
+    $title = 6;
+    $idds = 4;
+    include 'elements/header.php';
+?>
+            <div class="logos">
+                <div class="row_logos row_1">
+                    <div class="logos_company square">
+                        <img src="img/partners/fortinet.png" alt="Holiday Park & Resort">
+                    </div>
+                    <!--
+                    <div class="logos_company square">
+                        <img src="img/logos/mcn.jpg" alt="Morskie Centrum Nauki">
+                    </div>
+                    <div class="logos_company square">
+                        <img src="img/logos/fundusz.jpg" alt="Fundusz Pomerania">
+                    </div>
+                    !-->
+                    <div class="clear"></div>
+                </div>
+                <!--
+                <div class="row_logos row_2">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/seacon.png" alt="GS Seacon">
+                    </div>
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/pigment-logo.png" alt="Farby Pigment">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="row_logos row_3">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/kowo.png" alt="Kowo Udvikling">
+                    </div>
+                    <div class="logos_company square">
+                        <img src="img/logos/sep.jpg" alt="Stowarzyszenie Elektryków Polskich">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="row_logos row_4">
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/oknoserwis.png" alt="Okno Serwis">
+                    </div>
+                    <div class="logos_company rectangle">
+                        <img src="img/logos/multi.png" alt="Multi Nieruchomości">
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                !-->
+            </div>
+<!--======================== /PARTNERZY ============================== !-->
         </div>
         <div class="kontakt">
             <a name="kontakt"></a>

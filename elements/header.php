@@ -1,5 +1,5 @@
 <?php
-  $titles = ['CO MOŻEMY DLA CIEBIE ZROBIĆ?', 'POZNAJMY SIĘ', 'FAKTY', 'NASZE REALIZACJE', 'ZAUFALI NAM', 'REALIZACJE'];
+  $titles = ['CO MOŻEMY DLA CIEBIE ZROBIĆ?', 'POZNAJMY SIĘ', 'FAKTY', 'NASZE REALIZACJE', 'ZAUFALI NAM', 'REALIZACJE', 'PARTNERZY'];
   $ids = ['ofe', 'ona', 'fak', 'rea', 'zau', 'rea2']
 ?>
 <div class="header  <?php echo $ids[$idds] ?>">
