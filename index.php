@@ -14,6 +14,7 @@
     <!-- <link rel="stylesheet" href="css/style.css"> !-->
     <script src="js/apk.js"></script>
     <script src="js/gallery.js"></script>
+    
 </head>
 <body>
     <div class="main">
